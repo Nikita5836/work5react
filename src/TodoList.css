@@ -1,0 +1,27 @@
+/* TodoList.css */
+
+.todo-list-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .editing input {
+    width: 70%; /* Увеличиваем ширину поля ввода при редактировании */
+  }
+  
+  .toggle-dark-mode {
+    margin-top: 20px;
+  }
+  
